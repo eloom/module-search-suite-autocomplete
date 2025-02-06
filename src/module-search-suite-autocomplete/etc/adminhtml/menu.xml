@@ -3,7 +3,7 @@
     <menu>
         <add id="Eloom_SearchSuiteAutocomplete::menu"
              parent="Eloom_Core::menu"
-             title="Ajax Layered Navigation"
+             title="Search Suite Autocomplete"
              translate="title"
              module="Eloom_SearchSuiteAutocomplete"
              sortOrder="40"
