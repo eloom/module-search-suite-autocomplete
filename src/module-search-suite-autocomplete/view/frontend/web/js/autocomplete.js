@@ -1,0 +1,2 @@
+define(["jquery","uiComponent","ko"],function(d,c,a){return c.extend({defaults:{template:"Eloom_SearchSuiteAutocomplete/autocomplete",addToCartFormSelector:"[data-role=searchsuiteautocomplete-tocart-form]",showPopup:a.observable(!1),result:{suggest:{data:a.observableArray([])},product:{data:a.observableArray([]),size:a.observable(0),url:a.observable("")}},anyResultCount:!1},initialize:function(){var b=this;this._super();this.anyResultCount=a.computed(function(){return 0<b.result.suggest.data().length+
+b.result.product.data().length},this)}})});

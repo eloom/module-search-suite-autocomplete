@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Eloom_SearchSuiteAutocomplete::menu"
+             parent="Eloom_Core::menu"
+             title="Ajax Layered Navigation"
+             translate="title"
+             module="Eloom_SearchSuiteAutocomplete"
+             sortOrder="40"
+             resource="Eloom_SearchSuiteAutocomplete::menu" />
+        <add id="Eloom_SearchSuiteAutocomplete::settings"
+             action="adminhtml/system_config/edit/section/eloom_searchsuite"
+             parent="Eloom_SearchSuiteAutocomplete::menu"
+             title="Settings"
+             translate="title"
+             module="Eloom_SearchSuiteAutocomplete"
+             sortOrder="10"
+             resource="Eloom_SearchSuiteAutocomplete::settings" />
+    </menu>
+</config>
